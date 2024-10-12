@@ -1,0 +1,116 @@
+header{
+    background-image: url(../img/banner_436ee.jpg);
+    padding-bottom: 10%;
+    background-size: 100% 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+/*endhearder+csschung*/
+nav{
+    height: 40px;
+    background: blue;
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float:left;
+    padding: 0 25px;
+    border-right: 1px solid gray;
+}
+nav ul li:hover{
+    background: red;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav .tkiem{
+    float : right;
+    line-height: 40px;
+}
+nav .tkiem input{
+    border-radius: 5px 0 0 5px;
+    border:none;
+    outline:none;
+    margin:0px;
+    padding:7px 10px;
+    width: 250px;
+}
+nav .tkiem button{
+    padding: 7px 10px;
+    border:none;
+    outline:none;
+    background: blue;
+    color: #fff;
+    margin-left: -5px;
+}
+/*endnav*/
+ .chuchay{
+    position: relative;
+    margin-bottom: 5px;
+ }
+ /*hoan thien sau*/
+ aside{
+    float: left;
+    width: 300px;
+    border-left: 1px gray solid;  
+ }
+ h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: blue;
+    color: #fff;
+    text-shadow: 2px 2px 5px red;
+ }
+ .menudoc ul{
+    list-style: none;
+ }
+ .menudoc ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+ }
+ .menudoc ul li:hover{
+    background: red;  
+ }
+footer{
+    width: 100%;
+    clear: both;
+    background: blue;
+    color: #fff;
+ }
+.ft1{
+    float: left;
+    width: 400px;
+    margin-bottom: 25px;
+ }
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+ }
+.ft3{
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background: aqua;
+}
+.ft3 p{
+    color: red;
+    font-size: 15px;
+    font-variant: center;
+ }
