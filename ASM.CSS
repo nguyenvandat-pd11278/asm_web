@@ -1,116 +1,172 @@
-header{
-    background-image: url(../img/banner_436ee.jpg);
+header {
+    background-image: url(./img/banner_436ee.jpg);
     padding-bottom: 10%;
     background-size: 100% 100%;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    color: black;
 }
 
 /*endhearder+csschung*/
-nav{
+nav {
     height: 40px;
     background: blue;
     margin-bottom: 5px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
 }
-nav ul li{
-    float:left;
+
+nav ul li {
+    float: left;
     padding: 0 25px;
     border-right: 1px solid gray;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     background: red;
 }
-nav ul li a{
+
+nav ul li a {
     display: inline-block;
     text-decoration: none;
-    color:white;
+    color: white;
     font-family: roboto;
     font-size: 20px;
     line-height: 40px;
 }
-nav .tkiem{
-    float : right;
+
+nav .tkiem {
+    float: right;
     line-height: 40px;
 }
-nav .tkiem input{
+
+nav .tkiem input {
     border-radius: 5px 0 0 5px;
-    border:none;
-    outline:none;
-    margin:0px;
-    padding:7px 10px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
     width: 250px;
 }
-nav .tkiem button{
+
+nav .tkiem button {
     padding: 7px 10px;
-    border:none;
-    outline:none;
+    border: none;
+    outline: none;
     background: blue;
     color: #fff;
     margin-left: -5px;
 }
+
 /*endnav*/
- .chuchay{
+.chuchay {
     position: relative;
     margin-bottom: 5px;
- }
- /*hoan thien sau*/
- aside{
+}
+
+/*hoan thien sau*/
+aside {
     float: left;
     width: 300px;
-    border-left: 1px gray solid;  
- }
- h3{
+    border-left: 1px gray solid;
+}
+
+h3 {
     font-size: 18px;
     padding: 10px 15px;
     background: blue;
     color: #fff;
     text-shadow: 2px 2px 5px red;
- }
- .menudoc ul{
+}
+
+.menudoc ul {
     list-style: none;
- }
- .menudoc ul li{
+}
+
+.menudoc ul li {
     padding: 10px 15px;
     background-color: white;
     border-top: 1px solid gray;
- }
- .menudoc ul li:hover{
-    background: red;  
- }
-footer{
+}
+
+.menudoc ul li:hover {
+    background: red;
+}
+
+footer {
     width: 100%;
     clear: both;
     background: blue;
     color: #fff;
- }
-.ft1{
+}
+
+.ft1 {
     float: left;
     width: 400px;
     margin-bottom: 25px;
- }
-footer h3{
+}
+
+footer h3 {
     padding: 15px;
     font-size: 20px;
- }
-.ft3{
+}
+
+.ft3 {
     width: 100%;
     clear: both;
     height: 40px;
     background: aqua;
 }
-.ft3 p{
+
+.ft3 p {
     color: red;
     font-size: 15px;
     font-variant: center;
- }
+}
+
+/*--------------------------------*/
+.body {
+    display: flex;
+}
+
+.menudoc {
+
+    width: 25%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    width: calc(50% - 80px);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    line-height: 2em;
+}
+
+.item img {
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item:hover {
+    scale: 1.02;
+}
+
+iframe {
+    width: 75%;
+}
