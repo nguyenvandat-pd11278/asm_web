@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 80%;
+            margin-left: 10%;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        .faq-question {
+            cursor: pointer;
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            margin-top: 10px;
+            color: #333;
+        }
+
+        /* Thêm chút hiệu ứng khi người dùng mở mục Hỏi & Đáp */
+        details[open] summary {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v21.0&appId=351566476247899"></script>
+    <div class="faq-container">
+        <h2>Hỏi & Đáp</h2>
+
+        <details class="faq-item">
+            <summary class="faq-question">Học phí của trường là bao nhiêu?</summary>
+            <p class="faq-answer">Học phí của trường phụ thuộc vào từng ngành học. Bạn có thể tham khảo thêm thông tin
+                trên trang chủ của trường hoặc liên hệ phòng tư vấn tuyển sinh để biết chi tiết.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary class="faq-question">Trường có ký túc xá không?</summary>
+            <p class="faq-answer">Có, trường có cung cấp ký túc xá cho sinh viên với các phòng đầy đủ tiện nghi. Để biết
+                thêm thông tin về đăng ký ký túc xá, vui lòng liên hệ ban quản lý ký túc xá.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary class="faq-question">Cách đăng ký xét tuyển vào trường như thế nào?</summary>
+            <p class="faq-answer">Sinh viên có thể đăng ký xét tuyển online qua trang web của trường hoặc đến trực tiếp
+                phòng tuyển sinh để được hướng dẫn chi tiết.</p>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-question">Bạn muốn hỏi câu hỏi khác?</summary>
+            <p class="faq-answer">Bạn có thể vào mục "Liên hệ" hoặc bấm vào liên kết này <a href="LienHe.html">tại
+                    đây</a> để có thể hỏi những câu hỏi khác. Chúng tôi rất sẵn lòng trả lời câu hỏi của bạn</p>
+        </details>
+        <div style="height: 200px;"></div>
+    </div>
+</body>
+</html>
